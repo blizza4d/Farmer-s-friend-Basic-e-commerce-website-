@@ -1,0 +1,56 @@
+.item{
+    width: 18%;
+    height: 240px;
+    border: 2px black solid;
+    box-sizing: border-box;
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    background-color: rgb(189, 197, 189);
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+
+.item button{
+    text-align: center;
+    margin-left: 33%;
+    align-self: center;
+    background-color: rgb(39, 232, 39);
+}
+
+.item button:active{
+    text-decoration:wavy;
+}
+
+.item button:hover{
+
+    background-color: rgb(17, 180, 115);
+}
+
+.item h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+#stat{
+   
+}
+.item h2{
+    text-align: center;
+}
+
+
+.item img{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+#item_cont{
+    display: flex;
+    flex-wrap: wrap;
+}

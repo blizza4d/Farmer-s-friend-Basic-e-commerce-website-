@@ -1,0 +1,76 @@
+
+.Topnav{
+  background-color: rgb(10, 4, 4);
+  
+
+}
+
+.Topnav li:first-child{
+  margin-right: 21%;
+}
+
+.Topnav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  
+}
+
+#cred{
+    font-family: fantasy;
+    text-align: right;
+    margin-top: 7%;
+    margin-right: 5px;
+}
+
+#hid{
+  text-decoration: none;
+  text-align: center;
+  margin-left: 45%;
+}
+
+.Body p{
+  font-size: large;
+}
+
+.Topnav li{
+  height: 50px;
+  padding: 0 35px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: rgb(249, 245, 245);
+  
+}
+
+.Topnav a{
+  text-align: center;
+  height: 25px;
+  width: 50px;
+}
+
+.Topnav a:hover{
+  background-color: rgb(81, 80, 86);
+  cursor: pointer;
+}
+
+#web_quote{
+  display: flex;
+  margin-left: 53%;
+}
+
+.Body{
+  margin-top: 20px;
+}
+
+.links{
+  text-align: center;
+}
+
+#sho{
+  height: 100px;
+  width: 100px;
+}
