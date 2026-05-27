@@ -1,6 +1,7 @@
 import './shop.css'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Ammonia from './assets/Ammonia.jpg'
 
 
 function Shop(){
@@ -83,7 +84,7 @@ function Shop(){
         <button onClick={() => upd(5)}>{cart.has(5) ? "REMOVE FROM CART" : "ADD TO CART"}</button>
     </div>
     <div className="item">
-        <img src='src/assets/Ammonia.jpg'></img>
+        <img src={Ammonia}></img>
         <h2>Ammonium sulphate</h2>
         <h3>30$</h3>
         <button onClick={() => upd(6)}>{cart.has(6) ? "REMOVE FROM CART" : "ADD TO CART"}</button>
