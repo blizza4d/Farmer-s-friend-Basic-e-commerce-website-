@@ -1,6 +1,6 @@
 .item{
     width: 18%;
-    height: 240px;
+    min-height: 20%;
     border: 2px black solid;
     box-sizing: border-box;
     margin-left: 1.5%;
@@ -22,7 +22,7 @@
 }
 
 .item button:active{
-    text-decoration:wavy;
+    background-color: red;
 }
 
 .item button:hover{
