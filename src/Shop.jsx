@@ -26,7 +26,7 @@ function dynacol(e){
         e.target.style.backgroundColor = "red";
     }
     else{
-         e.target.style.backgroundColor = "green";
+         e.target.style.backgroundColor = "rgb(39, 232, 39)";
     }
     }
   
